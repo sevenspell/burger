@@ -1,9 +1,74 @@
+body {
+    /* background-color: rgb(255, 196, 87); */
+    font-family: 'Advent Pro', sans-serif ;
+    background-color:rgb(255, 228, 228);
+}
+
+li {
+    padding: 10px;
+    margin: 10px;
+    list-style: none;
+    border-radius: 5px;
+  }
+  
+  
+  .create-form {
+    padding: 10px;
+    margin: 10px;
+    background:  rgb(252, 184, 184);
+    border-radius: 5px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    height: 100px;
+  }
+
 .devouredBurgers{
-    color: red;
-    font-size: 30px;
+    color: rgba(143, 132, 132, 0.726);
+    font-size: 22px;
+    background-color: rgb(255, 204, 204);
+    min-height: 300px;
 }
 
 .freshBurgers {
-    color: blue;
-    font-size: 30px;
+    color: rgb(29, 28, 28);
+    font-size: 22px;
+    background-color: rgb(255, 204, 204);
+    min-height: 300px;
 }
+
+.burgers {
+    margin: 5px;
+    padding: 5px;
+}
+
+.fnButton {
+    background-color: #B44;
+    color: #ffffff;
+    border-radius: 5px;
+    font-size: 20px;
+    margin: 5px 5px 5px 0;
+    padding: 5px;
+}
+
+.image {
+    border-radius: 5px;
+}
+
+.header{
+    margin: 5px;
+    padding: 5px;
+}
+
+.label {
+    font-size: 22px;
+}
+
+#bgname {
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+}
+
