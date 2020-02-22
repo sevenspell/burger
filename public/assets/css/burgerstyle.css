@@ -12,14 +12,14 @@ li {
   }
   
   
-  .create-form {
+.create-form {
     padding: 10px;
     margin: 10px;
     background:  rgb(252, 184, 184);
     border-radius: 5px;
   }
   
-  .form-group {
+.form-group {
     margin-bottom: 10px;
     border-radius: 5px;
     height: 100px;
