@@ -53,7 +53,7 @@ var orm = {
       queryString += printQuestionMarks(vals.length);
       queryString += ") ";
   
-      console.log(queryString);
+      console.log("insertOne from orm.js " + queryString + " insertOne from orm.js");
   
       connection.query(queryString, vals, function(err, result) {
         if (err) {
@@ -72,7 +72,20 @@ var orm = {
       queryString += " WHERE ";
       queryString += condition;
   
-      console.log(queryString);
+      console.log("updateOne from orm.js " + queryString + " updateOne from orm.js");
+      connection.query(queryString, function(err, result) {
+        if (err) {
+          throw err;
+        }
+  
+        cb(result);
+      });
+    },
+    throwOne: function(table, condition, cb) {
+      var queryString = "DELETE FROM " + table;
+      queryString += " WHERE ";
+      queryString += condition;
+  
       connection.query(queryString, function(err, result) {
         if (err) {
           throw err;
