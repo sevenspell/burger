@@ -30,6 +30,7 @@ li {
     font-size: 22px;
     background-color: rgb(255, 204, 204);
     min-height: 300px;
+    border-radius: 5px;
 }
 
 .freshBurgers {
@@ -37,6 +38,7 @@ li {
     font-size: 22px;
     background-color: rgb(255, 204, 204);
     min-height: 300px;
+    border-radius: 5px;
 }
 
 .burgers {
